@@ -1,0 +1,58 @@
+h2{
+  text-transform: uppercase;
+  font-size: 28px;
+  color: #3388BB;
+  border-bottom: 1px solid #3388BB;
+}
+
+.name{
+  font-size: 24px;
+}
+
+/* Page englobe vraiment toute la page*/
+.page{
+  width: 800px;
+  margin: auto;
+  font-size: 16px;
+  font-family : 'Source Sans Pro', Calibri, Tahoma, sans-serif;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  box-shadow: 2px 4px 3px black;
+}
+/* Intervient dans les premiers DIV pour l'en-tête: Photo et infos*/
+.infophoto{
+  height: 250px;
+  margin-bottom: 75px;
+
+}
+
+.infos{
+float: left;
+}
+
+.photo{
+float: right;
+}
+/* Intervient dans le premier bloc d'info "Formation" */
+.formation, .exp, .competences, .autres{
+  margin-bottom: 75px;
+  text-align: justify;
+}
+
+.annee{
+  float: left;
+  text-align: justify;
+  font-weight: bold;
+}
+
+.texte{
+  margin-left: 150px;
+  margin-top: 38px;
+  text-align: justify;
+}
+
+.duree{
+  font-weight: normal;
+}
